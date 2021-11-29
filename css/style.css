@@ -10,7 +10,7 @@ header{
 	position: fixed;
 	height:70px;
 	width: 100%;
-	background-color: #fae337;
+	background-color: #5e8f8d;
 
 }
 header h1{
@@ -30,7 +30,7 @@ header ul a:hover{
 	color :#6da4fc;
 }
 header ul a{
-	color: white;
+	color: #745a75;
 	transition: .4s;
 
 }
@@ -81,7 +81,7 @@ a{
 	bottom: 0;
 	left: -300px;
 	width: 300px;
-	background-color: rgba(180, 189, 204, .9);
+	background-color: #745a75;
 	transition: .3s;
 	z-index: 9999;
 
@@ -92,7 +92,7 @@ a{
 .sidebar ul li {
 	padding: 25px;
 	transition: .1s;
-	transition-property: background-color;
+	transition-property: background-color ;
 }
 .sidebar ul li:hover{
 	background-color: #0c0d0d;
@@ -104,10 +104,11 @@ a{
 	display: none;
 }
 
-/bagian banner/
+/*bagian banner*/
 .banner{
-	background:  linear-gradient(to top, #fad637 0%, #ffff 110%);
-	padding: 150px 0;
+	background:  linear-gradient(to top, #745a75 0%, #111210 90%);
+	padding: 200px 0;
+	color: rgba(245, 245, 245, 0.897);
 }
 .banner img {
 	width: 150px;
@@ -155,7 +156,7 @@ content: '';
 	bottom: -1px;
 	width :40px;
 	height: 4px;
-	background-color: #3277a8;
+	background-color: #81dbb1;
 	left: calc(50% - 20px);
 }
 
@@ -169,7 +170,7 @@ content: '';
 	}
 /* bagian skills */
 #skills {
-	background-color:#fae337;
+	background-color:#745a75;
 }
 #skills .l-skills{
 	height: 30px;
@@ -228,7 +229,7 @@ content: '';
 
 /* bagian contact */
 #contact {
-	background-color: #fae337;
+	background-color: #81dbb1;
 	color: white;
 }
 
@@ -250,7 +251,7 @@ content: '';
 
 /* bagian footer */
 footer {
-	background-color: #34c9eb;
+	background-color: #81dbb1;
 	padding: 50px;
     text-align: center;
 }
@@ -261,4 +262,4 @@ footer small{
 html {
 	scroll-behavior: smooth;
 	background-color: ;
-}
+} 
